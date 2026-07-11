@@ -10,7 +10,7 @@ The final model is evaluated using standard regression metrics including MAE, RM
 •	Lag features (1h, 24h, 48h, 168h, 336h)
 •	Rolling mean, standard deviation, maximum, and minimum features
 •	LightGBM regression model
-•	Hyperparameter optimization using Optuna
+•	Hyperparameter optimization using RandomSearch
 •	TimeSeriesSplit cross-validation
 •	Model evaluation using MAE, RMSE, MAPE, and R²
 •	Visualization of actual vs. predicted electricity demand
@@ -19,7 +19,7 @@ The final model is evaluated using standard regression metrics including MAE, RM
 •	Pandas
 •	NumPy
 •	LightGBM
-•	Optuna
+•	RandomSearch
 •	Scikit-learn
 •	Matplotlib
 # Results
